@@ -1,0 +1,91 @@
+#center {
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.Welcome {
+    font-family: "Comic Sans MS";
+    font-size: 80pt;
+    color: aliceblue;
+}
+
+.arrow {
+    position: absolute;
+    top: 100%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    filter: invert(99%) sepia(3%) saturate(671%) hue-rotate(216deg) brightness(116%) contrast(86%);
+}
+
+.firstparagraph {
+    position: absolute;
+    text-align: left;
+    width: 45%;
+    color: aliceblue;
+    font-family: "Comic Sans MS";
+    font-size: 15pt;
+    top: 110%;
+}
+
+/*.second-paragraph {*/
+/*    position: absolute;*/
+/*    text-align: left;*/
+/*    width: 45%;*/
+/*    color: aliceblue;*/
+/*    font-family: "Comic Sans MS";*/
+/*    font-size: 15pt;*/
+/*    top: 150%;*/
+/*}*/
+
+
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    min-width: 100%;
+    min-height: 100%;
+}
+
+html body {
+    background: #002233;
+}
+
+/*Background*/
+
+section {
+    width: 100%;
+    min-height: 500px;
+}
+
+.pattern {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 215px;
+    background: url(../images/wave.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
