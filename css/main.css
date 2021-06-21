@@ -28,25 +28,33 @@ body {
     filter: invert(99%) sepia(3%) saturate(671%) hue-rotate(216deg) brightness(116%) contrast(86%);
 }
 
-.firstparagraph {
+html {
+    scroll-behavior: smooth;
+}
+
+
+#Paragraphs {
     position: absolute;
+    top: 100%;
+}
+
+.firstparagraph {
+    position: relative;
     text-align: left;
     width: 45%;
     color: aliceblue;
     font-family: "Comic Sans MS";
     font-size: 15pt;
-    top: 110%;
 }
 
-/*.second-paragraph {*/
-/*    position: absolute;*/
-/*    text-align: left;*/
-/*    width: 45%;*/
-/*    color: aliceblue;*/
-/*    font-family: "Comic Sans MS";*/
-/*    font-size: 15pt;*/
-/*    top: 150%;*/
-/*}*/
+.second-paragraph {
+    position: relative;
+    text-align: left;
+    width: 45%;
+    color: aliceblue;
+    font-family: "Comic Sans MS";
+    font-size: 15pt;
+}
 
 
 #bg {
