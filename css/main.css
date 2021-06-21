@@ -4,13 +4,6 @@
     margin-top: 10%;
 }
 
-body {
-    padding: 0%;
-    margin: 0%;
-}
-
-
-
 .Welcome {
     font-family: "Comic Sans MS";
     font-size: 80pt;
@@ -28,10 +21,8 @@ body {
     filter: invert(99%) sepia(3%) saturate(671%) hue-rotate(216deg) brightness(116%) contrast(86%);
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
+/*  Paragraphs  */
 
 #Paragraphs {
     position: absolute;
@@ -56,6 +47,39 @@ html {
     font-size: 15pt;
 }
 
+/*  Html Body Stuff  */
+
+html body {
+    background: #002233;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+/*  Background  */
+
+section {
+    width: 100%;
+    min-height: 500px;
+}
+
+.pattern {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 215px;
+    background: url(../images/wave.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 #bg {
     position: absolute;
@@ -73,27 +97,4 @@ html {
 
     min-width: 100%;
     min-height: 100%;
-}
-
-html body {
-    background: #002233;
-}
-
-/*Background*/
-
-section {
-    width: 100%;
-    min-height: 500px;
-}
-
-.pattern {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 215px;
-    background: url(../images/wave.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
