@@ -32,7 +32,6 @@
 .firstparagraph {
     position: relative;
     text-align: left;
-    width: 45%;
     color: aliceblue;
     font-family: "Comic Sans MS";
     font-size: 15pt;
@@ -41,7 +40,6 @@
 .second-paragraph {
     position: relative;
     text-align: left;
-    width: 45%;
     color: aliceblue;
     font-family: "Comic Sans MS";
     font-size: 15pt;
