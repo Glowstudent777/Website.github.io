@@ -4,6 +4,12 @@
     margin-top: 10%;
 }
 
+.center {
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+}
+
 .Welcome {
     font-family: "Comic Sans MS";
     font-size: 8vw;
